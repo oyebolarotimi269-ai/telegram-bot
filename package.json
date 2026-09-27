@@ -23,7 +23,8 @@
     "mock:rpc": "tsx src/stellar/mock-rpc.ts",
     "mock:poll": "tsx src/mock-run.ts",
     "audit": "tsx src/audit-cli.ts",
-    "audit:report": "tsx src/audit-cli.ts"
+    "audit:report": "tsx src/audit-cli.ts",
+    "seed:cursor": "tsx src/dev/seedCursor.ts"
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^16.2.0",
